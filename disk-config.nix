@@ -4,7 +4,7 @@
     device = dev;
     type = "disk";
     content = {
-      type = "table";
+      type = "gpt";
       format = "gpt";
       partitions = [
         {
